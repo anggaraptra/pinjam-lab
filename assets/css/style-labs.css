@@ -1,0 +1,122 @@
+/* navbar */
+nav {
+  background-color: #f2f2f2;
+}
+
+nav .container-fluid .navbar-brand span {
+  /* color: #a3cef1; */
+  color: #025f99;
+}
+
+nav .container-fluid .collapse ul .nav-item a:hover {
+  color: #025f99;
+}
+
+nav .container-fluid .collapse ul .nav-item .dropdown-menu .aktif {
+  color: #025f99;
+}
+
+.dropdown-menu {
+  background-color: #f2f2f2;
+}
+
+.dropdown-menu li a {
+  color: #717171;
+}
+
+/* jadwal */
+#jadwal .container-fluid .row .col h2 {
+  margin-top: 60px;
+}
+
+#jadwal .schedule {
+  background-color: #1271ac;
+  color: #fff;
+  padding: 5px 8px;
+  border-radius: 10px;
+}
+
+/* modal hubungi kami */
+#modalKontak .modal-footer button {
+  background: #025f99;
+  border: 1px solid #025f99;
+  color: #fff;
+  background: #025f99;
+  background: -moz-linear-gradient(-45deg, #025f99 0%, #2a86bf 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #025f99), color-stop(100%, #2a86bf));
+  background: -webkit-linear-gradient(-45deg, #025f99 0%, #2a86bf 100%);
+  background: -o-linear-gradient(-45deg, #025f99 0%, #2a86bf 100%);
+  background: -ms-linear-gradient(-45deg, #025f99 0%, #2a86bf 100%);
+  background: -webkit-linear-gradient(315deg, #025f99 0%, #2a86bf 100%);
+  background: -o-linear-gradient(315deg, #025f99 0%, #2a86bf 100%);
+  background: linear-gradient(135deg, #025f99 0%, #2a86bf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#025f99', endColorstr='#2a86bf', GradientType=1 );
+}
+
+#modalKontak .modal-footer button:hover {
+  border: 1px solid #2a86bf;
+  background: #2a86bf;
+  color: #fff;
+}
+
+/* footer */
+footer .footer-1 {
+  background-color: #f2f2f2;
+}
+
+footer .footer-1 .row {
+  padding-top: 35px;
+}
+
+footer .footer-logo span {
+  color: #025f99;
+}
+
+footer .tentang-kami p {
+  color: #717171;
+}
+
+footer .bantuan ul li a {
+  text-decoration: none;
+  color: #717171;
+}
+
+footer .bantuan ul li a:hover {
+  color: #025f99;
+}
+
+footer .sosial-media a img {
+  transition: all 0.5s;
+  opacity: 0.5;
+}
+
+footer .sosial-media a img:hover {
+  opacity: 1;
+  transform: scale(1.05) translateY(-2px);
+}
+
+footer .hubungi-kami div button {
+  background: #025f99;
+  border: 1px solid #025f99;
+  color: #fff;
+  background: #025f99;
+  background: -moz-linear-gradient(-45deg, #025f99 0%, #2a86bf 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #025f99), color-stop(100%, #2a86bf));
+  background: -webkit-linear-gradient(-45deg, #025f99 0%, #2a86bf 100%);
+  background: -o-linear-gradient(-45deg, #025f99 0%, #2a86bf 100%);
+  background: -ms-linear-gradient(-45deg, #025f99 0%, #2a86bf 100%);
+  background: -webkit-linear-gradient(315deg, #025f99 0%, #2a86bf 100%);
+  background: -o-linear-gradient(315deg, #025f99 0%, #2a86bf 100%);
+  background: linear-gradient(135deg, #025f99 0%, #2a86bf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#025f99', endColorstr='#2a86bf', GradientType=1 );
+}
+
+footer .hubungi-kami div button:hover {
+  border: 1px solid #2a86bf;
+  background: #2a86bf;
+  color: #fff;
+}
+
+.copyright .footer-copyright {
+  padding-top: 8px;
+}
